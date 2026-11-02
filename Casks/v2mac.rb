@@ -1,6 +1,6 @@
 cask "v2mac" do
-  version "1.5.0"
-  sha256 "0cd3595c043fd4e6c76da17c75340a31802c9f27d948610014a3bec33f7630eb"
+  version "1.6.0"
+  sha256 "c7e4756ad24ba1c84fea5bca7c0c5dced201865255d086c0a885de973ddf55e2"
 
   url "https://github.com/v2macapp/v2mac/releases/download/v#{version}/V2Mac-#{version}.dmg"
   name "V2Mac"
