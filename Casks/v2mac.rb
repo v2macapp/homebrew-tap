@@ -1,14 +1,13 @@
 cask "v2mac" do
-  version "1.8.0"
+  version "1.10.0"
 
   on_arm do
-    sha256 "844fdff4eda4571c860bf528768cdc5e0f4b95849acf85b38e9f2eae313c5a7a"
+    sha256 "1c6497f44be1703bf0fdec865e79b851b906f451ac3286e0013578791f1288be"
 
     url "https://github.com/v2macapp/v2mac/releases/download/v#{version}/V2Mac-#{version}.dmg"
   end
-  # Local validation hash; release CI replaces both hashes before this branch is published.
   on_intel do
-    sha256 "dfc072200c43eed7c3d926e75fbd7febc43f5a3dffed7275c6653619e515dcdb"
+    sha256 "606588f734518a3fac3bfd42a7c3642464b06528f4202452932b1aada5c01dd4"
 
     url "https://github.com/v2macapp/v2mac/releases/download/v#{version}/V2Mac-#{version}-intel.dmg"
   end
