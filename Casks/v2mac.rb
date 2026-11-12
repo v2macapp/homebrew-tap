@@ -1,13 +1,13 @@
 cask "v2mac" do
-  version "1.11.2"
+  version "1.12.0"
 
   on_arm do
-    sha256 "02baee7b9771c678a29abd8b95185a5fd97b670eb70bde1356c254a57042a4ff"
+    sha256 "a85854e34769cf08b79fedd8b1bad69d3e427a46c5cf0bfd3c4e9d2dc4076f8e"
 
     url "https://github.com/v2macapp/v2mac/releases/download/v#{version}/V2Mac-#{version}.dmg"
   end
   on_intel do
-    sha256 "5ddd64d8f28b72c29800219bc91a894a0363b46122275f173f09673eade24e6b"
+    sha256 "45aed7bb79071b289a208f14df3b8d45b0aa37912e136da33e3093adbee9e05b"
 
     url "https://github.com/v2macapp/v2mac/releases/download/v#{version}/V2Mac-#{version}-intel.dmg"
   end
